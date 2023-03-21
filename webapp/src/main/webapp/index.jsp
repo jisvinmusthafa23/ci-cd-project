@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Welcome to Abhi's HTML APP !!</title>
+    <title>Welcome to Abhi KUNDAN's HTML APP !!</title>
     <style>
       body {
         background-color: #f2f2f2;
@@ -54,7 +54,7 @@
     </style>
   </head>
   <body>
-    <h1>Welcome to Abhi's HTML APP</h1>
+    <h1>Welcome to Abhi KUNDAN's HTML APP</h1>
     <form>
       <label for="name">Name:</label>
       <input type="text" id="name" name="name">
