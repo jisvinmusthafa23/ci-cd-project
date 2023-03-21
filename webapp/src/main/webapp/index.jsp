@@ -1,37 +1,67 @@
-<form action="action_page.php">
-  <div class="container">
-    <h1>NABEEL TESTING!!</h1>
-    <p>Please fill in this form to create an account.</p>
-    <hr>
-     
-    <label for="Name"><b>Enter Name</b></label>
-    <input type="text" placeholder="Enter Full Name" name="Name" id="Name" required>
-    <br>
-    
-    <label for="mobile"><b>Enter mobile</b></label>
-    <input type="text" placeholder="Enter moible number" name="mobile" id="mobile" required>
-    <br>
+[200~<!DOCTYPE html>
+<html>
+	  <head>
+		      <title>My Graphical HTML Application</title>
+		          <style>
+      body {
+	              background-color: #f2f2f2;
+		              font-family: Arial, sans-serif;
+			            }
+            
+            h1 {
+		            text-align: center;
+			            color: #333;
+				            margin-top: 50px;
+					          }
+	          
+	          form {
+			          background-color: #fff;
+				          width: 500px;
+					          margin: 0 auto;
+						          padding: 20px;
+							          border-radius: 10px;
+								          box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+									        }
+		        
+		        label {
+				        display: block;
+					        margin-bottom: 10px;
+						        color: #333;
+							      }
+			      
+			      input[type="text"],
+			            input[type="email"] {
+					            width: 100%;
+						            padding: 10px;
+							            border: 1px solid #ccc;
+								            border-radius: 5px;
+									            box-sizing: border-box;
+										            margin-bottom: 20px;
+											          }
+				          
+				          input[type="submit"] {
+						          background-color: #4CAF50;
+							          color: #fff;
+								          border: none;
+									          padding: 10px 20px;
+										          border-radius: 5px;
+											          cursor: pointer;
+												        }
+					        
+					        input[type="submit"]:hover {
+							        background-color: #3e8e41;
+								      }
+						    </style>
+						      </head>
+						        <body>
+								    <h1>Welcome to My Graphical HTML Application</h1>
+								        <form>
+										      <label for="name">Name:</label>
+										            <input type="text" id="name" name="name">
+											          <label for="email">Email:</label>
+												        <input type="email" id="email" name="email">
+													      <input type="submit" value="Submit">
+													          </form>
+														    </body>
+</html>
 
-    <label for="email"><b>Enter Email</b></label>
-    <input type="text" placeholder="Enter Email" name="email" id="email" required>
-    <br>
-
-    <label for="psw"><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
-    <br>
-
-    <label for="psw-repeat"><b>Repeat Password</b></label>
-    <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
-    <hr>
-    <br>
-    <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
-    <button type="submit" class="registerbtn">Register</button>
-  </div>
-  <div class="container signin">
-    <p>Already have an account? <a href="#">Sign in</a>.</p>
-  </div>
-
-   <h1> Thankyou, Happy Learning </h1>
-
-  
-</form>
