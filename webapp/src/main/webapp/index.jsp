@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>My Graphical HTML Application</title>
+    <title>Welcome to Nabeel's HTML APP !!</title>
     <style>
       body {
         background-color: #f2f2f2;
