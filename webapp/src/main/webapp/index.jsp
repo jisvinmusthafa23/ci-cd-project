@@ -54,7 +54,7 @@
     </style>
   </head>
   <body>
-    <h1>Welcome to Nabeel's HTML APP</h1>
+    <h1>Welcome to Arun's HTML APP</h1>
     <form>
       <label for="name">Name:</label>
       <input type="text" id="name" name="name">
